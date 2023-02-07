@@ -1,0 +1,65 @@
+<form action="" method="post" enctype="multipart/form-data">
+
+</form><fieldset>
+    
+<legend>Trabalhando com inputs</legend>
+
+<!--
+    SELECT
+    Elemento de formulario capaz de criar uma lista 
+    a serem selecionados, DropDown
+-->
+
+<label for="teacher">Professores</label>
+<select name="select-teacher" id="teacher" multiple size="4">
+    <option value="">Selecione um Professor</option>
+    <option value="Luan Santos">Luan Santos</option>
+    <option value="Moacir Garcia">Moacir Garcia</option>
+    <option value="Jenifer Vieira">Jenifer Vieira</option>
+    <option value="Regis Eduardo">Regis Eduardo</option>
+</select>
+
+<!-- select-teacher = [*'Luan Santos', 'Moacir Garia']-->
+
+<!--
+    Input search
+*Elemento usado para pequisar conteudo
+*parecido com o campo de "text" pode receber atributos e comportamentos
+
+-->
+<br>
+<br>
+
+<Input
+  type="search"
+  name=""
+  title=""
+  placeholder="Busque o usuario pelo id"
+  pattern="[0-9]{0,3}"
+  size="24"
+  title="busque o usuario pelo id"
+  required
+  >
+  <label>coloque o id de funcionario</label>
+<br>
+<br>
+
+<!-- manipulando arquivos com file 
+    *usuario podera fazer upload de 1 ou mais 
+    arquivos de acordo com a extensao
+-->
+
+<input
+type="file"
+value=""
+accept="image/*"
+multiple
+>
+<br>
+
+
+<br>
+<button type="submit">ENVIAR</button>
+</form>
+</fieldset>
+
