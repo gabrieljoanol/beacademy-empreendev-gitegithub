@@ -1,0 +1,13 @@
+Algoritmo "ImprimeEnquanto1a10bugado"
+  var
+   j:inteiro
+Inicio
+   escreval("Imprimindo de 1 a 10 com enquanto: ")
+   j<-1
+   enquanto < 11 faca
+   escreval(j)
+    j<-j+1
+    fimenquanto
+   fimpara
+
+Fimalgoritmo
